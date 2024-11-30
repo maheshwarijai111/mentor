@@ -1,0 +1,14 @@
+
+.navbar-nav .nav-link{font-size: 15px; font-weight: 400; color:#333;}
+.navbar-nav .dropdown-menu li a{font-size: 15px; font-weight: 400; color:#333;}
+.nav-item.dropdown .dropdown-menu { display: none; opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0s linear 0.3s; position: absolute; z-index: 1000;}
+.nav-item.dropdown:hover .dropdown-menu { display: block; opacity: 1; visibility: visible; transition: opacity 0.3s ease, visibility 0s linear 0s; }
+.otherMenuItems{margin-left:40px; place-items:center;}
+.otherMenuItems .search{margin-right:20px;}
+.otherMenuItems .search a{border:1px solid #ccc; border-radius:50px; text-decoration:none;padding: 14px 14px; display: inline-flex;}
+.otherMenuItems .search a i{font-size:15px; color:#333;}
+.join_FreeBtn{color: #da3535; font-size: 15px; border: 1px solid #ccc; border-radius: 50px; font-weight:500; padding: 10px 20px; text-decoration: none;}
+
+@media only screen and (max-width: 767px) {
+
+}

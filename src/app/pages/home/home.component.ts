@@ -9,6 +9,7 @@ declare var $: any;
   styleUrl: './home.component.css'
 })
 export class HomeComponent implements AfterViewInit {
+  imagePath = "https://orchid-loris-325918.hostingersite.com/src/"
   ngAfterViewInit() {
     $('.feature_items_slider').owlCarousel({
       loop: true,

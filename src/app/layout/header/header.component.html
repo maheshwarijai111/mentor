@@ -59,9 +59,16 @@
                                 </li>
                             </ul>
                             <div class="d-flex otherMenuItems">
-                                <div class="search">
-                                    <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                </div>
+                                <div class="input-box" [class.open]="isOpen">
+                                    <input type="text" placeholder="Search..." />
+                                    <span class="search" (click)="toggleInput(true)">
+                                      <i class="fa fa-search uil uil-search search-icon"></i>
+                                    </span>
+                                    <span>
+                                    <i class="fa fa-close uil uil-times close-icon" (click)="toggleInput(false)">x</i>
+                                </span>
+                                </div>                                  
+                                
                                 <a href="#" class="join_FreeBtn">Join for free</a>
                             </div>
                         </div>

@@ -14,14 +14,19 @@
                     <div class="line_heading">
                         <h1 class="mb-4">Get help from vetted <span>Mentors</span></h1>
                         <h2 class="mb-4">One-on-one live mentorship</h2>
-                        <p class="mb-5">Get help from experienced, vetted mentors who bring real-world expertise to your learning journey. Our mentors are carefully selected for their skills and industry knowledge, ensuring you receive high-quality guidance tailored to your goals. Whether you're advancing your career or mastering a new technology, our mentors provide actionable insights and support to help you succeed.</p>
+                        <p class="mb-5">Get help from experienced, vetted mentors who bring real-world expertise to your
+                            learning journey. Our mentors are carefully selected for their skills and industry
+                            knowledge, ensuring you receive high-quality guidance tailored to your goals. Whether you're
+                            advancing your career or mastering a new technology, our mentors provide actionable insights
+                            and support to help you succeed.</p>
                     </div>
 
                     <div class="row experience_box_rightPB">
                         <div class="col-md-6">
                             <div class="d-flex">
                                 <div class="flex-shrink-0">
-                                    <img class="experience_box_rightPB_yellow" src="assets/images/home/about/icons1.jpeg" />
+                                    <img class="experience_box_rightPB_yellow"
+                                        src="assets/images/home/about/icons1.jpeg" />
                                 </div>
                                 <div class="flex-grow-1 ml-3">
                                     <h3>Experienced Mentors</h3>
@@ -87,56 +92,138 @@
         </div>
         <div class="row mt-2">
             <ul>
-                <li>
-                    <div>
-                        <h3>Career Mentorship</h3>
-                        <p>Receive personalized career guidance to navigate the tech landscape. Career mentors help you define goals, build a strategic plan, and refine your skills to stand out in the competitive job market.</p>
-                        <a href="" class="button">More Details</a>
+                <li class="card-container" (click)="toggleFlip()" [class.flipped]="showFlip">
+                    <div class="card">
+                        <div class="front">
+                            <h3>Career Mentorship</h3>
+                            <p>
+                                Receive personalized career guidance to navigate the tech landscape. Career mentors help
+                                you define goals, build
+                                a strategic plan, and refine your skills to stand out in the competitive job market.
+                            </p>
+                            <a href="" class="button">More Details</a>
+                        </div>
+                        <div class="back">
+                            <h3>Career Mentorship</h3>
+                            <p>
+                                Receive personalized career guidance to navigate the tech landscape. Career mentors help
+                                you define goals, build
+                                a strategic plan, and refine your skills to stand out in the competitive job market.
+                            </p>
+                            <a href="" class="button">More Details</a>
+                        </div>
                     </div>
                 </li>
-                <li>
-                    <div>
-                        <img src="assets/images/home/services/box2.jpeg" />
-                    </div>
-                    <div>
-                        <h3>Tech Mentors</h3>
-                        <p>Advance your technical skills with hands-on guidance from tech mentors..</p>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="assets/images/home/services/box3.svg" />
-                    </div>
-                    <div>
-                        <h3>Product Mentors</h3>
-                        <p>Develop a strong foundation in product management. Product mentors guide you through.</p>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="assets/images/home/services/box4.svg" />
-                    </div>
-                    <div>
-                        <h3>Startup Mentors</h3>
-                        <p>Turn your entrepreneurial dreams into reality with startup mentors...</p>
+                <li class="card-container" (click)="toggleFlip()" [class.flipped]="showFlip">
+                    <div class="card">
+                        <div class="front">
+                            <div>
+                                <img src="assets/images/home/services/box2.jpeg" />
+                            </div>
+                            <div>
+                                <h3>Tech Mentors</h3>
+                                <p>Advance your technical skills with hands-on guidance from tech mentors..</p>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div>
+                                <img src="assets/images/home/services/box2.jpeg" />
+                            </div>
+                            <div>
+                                <h3>Tech Mentors</h3>
+                                <p>Advance your technical skills with hands-on guidance from tech mentors..</p>
+                            </div>
+                        </div>
                     </div>
                 </li>
-                <li>
-                    <div>
-                        <img src="assets/images/home/services/box5.svg" />
-                    </div>
-                    <div>
-                        <h3>Design Mentors</h3>
-                        <p>Enhance your design skills with expert insights. Design mentors...</p>
+                <li class="card-container" (click)="toggleFlip()" [class.flipped]="showFlip">
+                    <div class="card">
+                        <div class="front">
+                            <div>
+                                <img src="assets/images/home/services/box3.svg" />
+                            </div>
+                            <div>
+                                <h3>Product Mentors</h3>
+                                <p>Develop a strong foundation in product management. Product mentors guide you through.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div>
+                                <img src="assets/images/home/services/box3.svg" />
+                            </div>
+                            <div>
+                                <h3>Product Mentors</h3>
+                                <p>Develop a strong foundation in product management. Product mentors guide you through.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </li>
-                <li>
-                    <div>
-                        <img src="assets/images/home/services/box6.svg" />
+                <li class="card-container" (click)="toggleFlip()" [class.flipped]="showFlip">
+                    <div class="card">
+                        <div class="front">
+                            <div>
+                                <img src="assets/images/home/services/box4.svg" />
+                            </div>
+                            <div>
+                                <h3>Startup Mentors</h3>
+                                <p>Turn your entrepreneurial dreams into reality with startup mentors...</p>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div>
+                                <img src="assets/images/home/services/box4.svg" />
+                            </div>
+                            <div>
+                                <h3>Startup Mentors</h3>
+                                <p>Turn your entrepreneurial dreams into reality with startup mentors...</p>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h3>Leadership Mentors</h3>
-                        <p>Strengthen your leadership capabilities to manage teams and drive impact..</p>
+                </li>
+                <li class="card-container" (click)="toggleFlip()" [class.flipped]="showFlip">
+                    <div class="card">
+                        <div class="front">
+                            <div>
+                                <img src="assets/images/home/services/box5.svg" />
+                            </div>
+                            <div>
+                                <h3>Design Mentors</h3>
+                                <p>Enhance your design skills with expert insights. Design mentors...</p>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div>
+                                <img src="assets/images/home/services/box5.svg" />
+                            </div>
+                            <div>
+                                <h3>Design Mentors</h3>
+                                <p>Enhance your design skills with expert insights. Design mentors...</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="card-container" (click)="toggleFlip()" [class.flipped]="showFlip">
+                    <div class="card">
+                        <div class="front">
+                            <div>
+                                <img src="assets/images/home/services/box6.svg" />
+                            </div>
+                            <div>
+                                <h3>Leadership Mentors</h3>
+                                <p>Strengthen your leadership capabilities to manage teams and drive impact..</p>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div>
+                                <img src="assets/images/home/services/box6.svg" />
+                            </div>
+                            <div>
+                                <h3>Leadership Mentors</h3>
+                                <p>Strengthen your leadership capabilities to manage teams and drive impact..</p>
+                            </div>
+                        </div>
                     </div>
                 </li>
             </ul>
@@ -158,7 +245,8 @@
                     <img src="assets/images/home/mentor-connect/connect-top-deve-hero-icon.svg" />
                     <h1>Connect with 12000+ Top Developers Anytime</h1>
                     <h2>Managed IT Services Customized For Your Industry</h2>
-                    <p>These programs are 100% industry-led and mentored by Industry Mentor. You can choose from full length Tech and Non-tech Programs.</p>
+                    <p>These programs are 100% industry-led and mentored by Industry Mentor. You can choose from full
+                        length Tech and Non-tech Programs.</p>
                 </div>
             </div>
         </div>
@@ -283,7 +371,8 @@
                                 <img src="assets/images/home/mentor-corderhelp/img-1.svg" />
                                 <div>
                                     <h4>Need guidance? Assess Your Goals</h4>
-                                    <p>We start by understanding your skills, career goals, and preferred learning style to create a customized plan.</p>
+                                    <p>We start by understanding your skills, career goals, and preferred learning style
+                                        to create a customized plan.</p>
                                 </div>
                             </div>
                         </div>
@@ -298,7 +387,8 @@
 
                                 <div>
                                     <h4>Need guidance? Assess Your Goals</h4>
-                                    <p>We start by understanding your skills, career goals, and preferred learning style to create a customized plan.</p>
+                                    <p>We start by understanding your skills, career goals, and preferred learning style
+                                        to create a customized plan.</p>
                                 </div>
                                 <img src="assets/images/home/mentor-corderhelp/img-2.svg" />
                             </div>
@@ -314,7 +404,8 @@
                                 <img src="assets/images/home/mentor-corderhelp/img-3.svg" />
                                 <div>
                                     <h4>Need guidance? Assess Your Goals</h4>
-                                    <p>We start by understanding your skills, career goals, and preferred learning style to create a customized plan.</p>
+                                    <p>We start by understanding your skills, career goals, and preferred learning style
+                                        to create a customized plan.</p>
                                 </div>
                             </div>
                         </div>
@@ -328,7 +419,8 @@
                             <div class="desc">
                                 <div>
                                     <h4>Need guidance? Assess Your Goals</h4>
-                                    <p>We start by understanding your skills, career goals, and preferred learning style to create a customized plan.</p>
+                                    <p>We start by understanding your skills, career goals, and preferred learning style
+                                        to create a customized plan.</p>
                                 </div>
                                 <img src="assets/images/home/mentor-corderhelp/img-4.svg">
                             </div>
@@ -345,7 +437,8 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="line_heading">
-                    <h1 class="mb-2">Our Values<p class="mb-4">COMMITMENT</p> </h1>
+                    <h1 class="mb-2">Our Values<p class="mb-4">COMMITMENT</p>
+                    </h1>
 
                     <span>These values give us the foundations we need.</span>
                 </div>
@@ -357,7 +450,8 @@
                             <img src="assets/images/home/Our-Values/user-img.svg" />
                             <div>
                                 <img src="assets/images/home/Our-Values/user-ventor.svg" />
-                                <p>This is probably the single greatest resource to learn app dev or basics of AI $10 for 15 mins to remove a blocker.</p>
+                                <p>This is probably the single greatest resource to learn app dev or basics of AI $10
+                                    for 15 mins to remove a blocker.</p>
                                 <div class="caption">
                                     <h2>By : Ron Wilson</h2>
                                     <h5>Creative Director</h5>
@@ -483,8 +577,6 @@
                 </div>
             </div>
         </div>
-
-
     </div>
 </section>
 

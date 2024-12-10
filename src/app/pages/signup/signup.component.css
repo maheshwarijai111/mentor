@@ -1,0 +1,14 @@
+.inner_bg{background: #f6f6f6; padding: 80px 0px;}
+.inner_bg img{width: 100%;}
+.inner_bg .content_innerBG{}
+.inner_bg .content_innerBG h1{}
+
+.signUpForm{}
+.signUpForm .card-header{background: #3d507f; color: #fff;}
+.signUpForm .card-header h4{margin: auto; font-size: 22px; font-weight: 500; letter-spacing: 0.8px;}
+.signUpForm .card-body .nav-tabs{margin-bottom: 20px; border: none;}
+.signUpForm .card-body .nav-tabs .nav-link.disabled {cursor: not-allowed; opacity: 0.6;}
+.signUpForm .card-body .nav-tabs .nav-item button{border: 2px solid #da3535; color: #333; border-radius: 5px; font-size: 16px; padding: 7px 30px; margin-right: 20px; font-weight: 600; text-transform: uppercase;}
+
+.signUpForm .card-body .tab-content form button{background: #da3535; color: #fff; border-radius: 5px; font-size: 18px; padding: 7px 20px; border: none; float: right; font-weight: 500; letter-spacing: 1px;}
+

@@ -13,6 +13,8 @@ import { NgIf } from '@angular/common';
 export class HeaderComponent {
   showBanner: boolean = true;
 
+  isOpen: boolean = false; 
+
   constructor(private router: Router, private activatedRoute: ActivatedRoute) {}
 
   ngOnInit(): void {
@@ -27,4 +29,9 @@ export class HeaderComponent {
       }
     });
   }
+
+  toggleInput(state: boolean): void {
+    this.isOpen = state;
+  }
+  
 }

@@ -15,6 +15,9 @@ body{font-family: "Roboto", sans-serif;}
 .hero_banner h1 span span{display:block;}
 .hero_banner p{font-size:18px; font-weight:400; color:#6e82aa; margin:auto; line-height:28px;}
 
+.back-to-top {position: fixed; bottom: 25px; right: 55px; display: none !important; background-color: #da3535 !important; color: #fff !important; border: none !important; z-index: 99;} 
+.back-to-top i { font-size: 30px; text-align: center; transform: rotate(-45deg); margin-top: 10px; }
+
 
 
 .call_icons{position: fixed; right: 10px; top: 100px; z-index: 9;}

@@ -9,6 +9,8 @@ declare var $: any;
   styleUrl: './home.component.css'
 })
 export class HomeComponent implements AfterViewInit {
+  showFlip: boolean = false;
+
   imagePath = "https://orchid-loris-325918.hostingersite.com/src/"
   ngAfterViewInit() {
     $('.feature_items_slider').owlCarousel({
@@ -60,4 +62,9 @@ export class HomeComponent implements AfterViewInit {
       }
     });
   }
+
+  toggleFlip() {
+    this.showFlip = !this.showFlip;
+  }
+  
 }

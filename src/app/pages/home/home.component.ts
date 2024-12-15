@@ -66,5 +66,5 @@ export class HomeComponent implements AfterViewInit {
   toggleFlip() {
     this.showFlip = !this.showFlip;
   }
-  
+
 }
